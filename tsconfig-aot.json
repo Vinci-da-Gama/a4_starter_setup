@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "es2015",
+    	"moduleResolution": "node",
+		"sourceMap": true,
+		"declaration": false,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"downlevelIteration": true,
+		"lib": ["es2015", "es2016", "dom"],
+		"strict": true,
+		"strictNullChecks": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"typeRoots": ["./node_modules/@types/"]
+	},
+	"files": [
+		"./src/app/app.module.ts",
+		"./src/main.ts"
+	],
+	"compileOnSave": false,
+	"angularCompilerOptions": {
+		"genDir": "aot",
+		"skipMetadataEmit": true
+	}
+}
